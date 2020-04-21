@@ -10,7 +10,6 @@ import (
 	"testing"
 )
 
-
 func Test_minstXgb(t *testing.T) {
 	modelFile := iokit.File(model.Path("mnist_test_xgb.zip"))
 	report := xgb.Model{
@@ -38,4 +37,3 @@ func Test_minstXgb(t *testing.T) {
 	fmt.Println(lr.Round(5))
 	assert.Assert(t, model.Accuracy(lr) >= 0.96)
 }
-

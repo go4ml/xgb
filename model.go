@@ -2,10 +2,10 @@ package xgb
 
 import (
 	"encoding/json"
-	"go-ml.dev/pkg/iokit"
 	"go-ml.dev/pkg/base/fu"
 	"go-ml.dev/pkg/base/model"
 	"go-ml.dev/pkg/base/model/hyperopt"
+	"go-ml.dev/pkg/iokit"
 	"go-ml.dev/pkg/zorros"
 	"io"
 	"reflect"
@@ -18,8 +18,8 @@ type Model struct {
 	Algorithm booster
 	Function  objective
 
-	Seed       int    // random generator seed
-	Predicted  string // name of predicted value column
+	Seed      int    // random generator seed
+	Predicted string // name of predicted value column
 
 	MinChildWeight float64 //the minimum sum of weights of all observations required in a child.
 	Gamma          float64 // Specifies the minimum loss reduction required to make a split.
@@ -68,7 +68,7 @@ Apply parameters to define model specific
 */
 func (m Model) Apply(p hyperopt.Params) Model {
 	x := reflect.ValueOf(&m).Elem()
-	for k,v := range p {
+	for k, v := range p {
 		z := x.FieldByName(k)
 		if !z.IsValid() {
 			panic(zorros.Panic(zorros.Errorf("model does not have field `%v`", k)))

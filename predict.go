@@ -1,8 +1,8 @@
 package xgb
 
 import (
-	"go-ml.dev/pkg/iokit"
 	"go-ml.dev/pkg/base/tables"
+	"go-ml.dev/pkg/iokit"
 	"go-ml.dev/pkg/xgb/capi"
 	"io"
 	"io/ioutil"
