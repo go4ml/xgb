@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/go-ml.dev/xgb.svg?style=svg)](https://circleci.com/gh/go-ml.dev/xgb)
-[![Maintainability](https://api.codeclimate.com/v1/badges/c66e0431917e286fe342/maintainability)](https://codeclimate.com/go-ml.dev/xgb/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/c66e0431917e286fe342/test_coverage)](https://codeclimate.com/go-ml.dev/xgb/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/24971185cab6e6a3fae2/maintainability)](https://codeclimate.com/go-ml.dev/xgb/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/24971185cab6e6a3fae2/test_coverage)](https://codeclimate.com/go-ml.dev/xgb/test_coverage)
 [![Go Report Card](https://goreportcard.com/badge/go-ml.dev/xgb)](https://goreportcard.com/report/go-ml.dev/xgb)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
