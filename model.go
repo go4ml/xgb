@@ -4,7 +4,6 @@ import (
 	"encoding/json"
 	"go-ml.dev/pkg/base/fu"
 	"go-ml.dev/pkg/base/model"
-	"go-ml.dev/pkg/base/model/hyperopt"
 	"go-ml.dev/pkg/iokit"
 	"go-ml.dev/pkg/zorros"
 	"io"
@@ -59,14 +58,14 @@ func (e Model) Feed(ds model.Dataset) model.FatModel {
 /*
 ModelFunc updates xgboost model with parameters for hyper-optimization
 */
-func (m Model) ModelFunc(p hyperopt.Params) model.HungryModel {
+func (m Model) ModelFunc(p model.Params) model.HungryModel {
 	return m.Apply(p)
 }
 
 /*
 Apply parameters to define model specific
 */
-func (m Model) Apply(p hyperopt.Params) Model {
+func (m Model) Apply(p model.Params) Model {
 	x := reflect.ValueOf(&m).Elem()
 	for k, v := range p {
 		z := x.FieldByName(k)
