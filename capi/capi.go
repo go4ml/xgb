@@ -8,9 +8,9 @@ package capi
 import "C"
 import (
 	"fmt"
-	"go-ml.dev/pkg/base/fu"
-	"go-ml.dev/pkg/dyl"
-	"go-ml.dev/pkg/zorros"
+	"go4ml.xyz/base/fu"
+	"go4ml.xyz/dyl"
+	"go4ml.xyz/zorros"
 	"runtime"
 	"unsafe"
 )

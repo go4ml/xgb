@@ -1,7 +1,7 @@
 package xgb
 
 import (
-	"go-ml.dev/pkg/xgb/capi"
+	"go4ml.xyz/xgb/capi"
 )
 
 type capiparam interface{ pair() (string, string) }

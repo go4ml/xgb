@@ -2,10 +2,10 @@ package tests
 
 import (
 	"fmt"
-	"go-ml.dev/pkg/base/model"
-	"go-ml.dev/pkg/dataset/mnist"
-	"go-ml.dev/pkg/iokit"
-	"go-ml.dev/pkg/xgb"
+	"go4ml.xyz/base/model"
+	"go4ml.xyz/dataset/mnist"
+	"go4ml.xyz/iokit"
+	"go4ml.xyz/xgb"
 	"gotest.tools/assert"
 	"testing"
 )

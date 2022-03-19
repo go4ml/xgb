@@ -1,8 +1,8 @@
 package xgb
 
 import (
-	"go-ml.dev/pkg/base/tables"
-	"go-ml.dev/pkg/xgb/capi"
+	"go4ml.xyz/base/tables"
+	"go4ml.xyz/xgb/capi"
 	"unsafe"
 )
 

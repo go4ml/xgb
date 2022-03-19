@@ -1,8 +1,8 @@
 package xgb
 
 import (
-	"go-ml.dev/pkg/base/fu"
-	"go-ml.dev/pkg/xgb/capi"
+	"go4ml.xyz/base/fu"
+	"go4ml.xyz/xgb/capi"
 	"runtime"
 	"unsafe"
 )

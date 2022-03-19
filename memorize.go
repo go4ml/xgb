@@ -3,8 +3,8 @@ package xgb
 import (
 	"bufio"
 	"encoding/json"
-	"go-ml.dev/pkg/base/model"
-	"go-ml.dev/pkg/xgb/capi"
+	"go4ml.xyz/base/model"
+	"go4ml.xyz/xgb/capi"
 	"io"
 )
 
