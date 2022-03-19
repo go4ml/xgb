@@ -44,3 +44,4 @@ func Test_minstXgb(t *testing.T) {
 	assert.Assert(t, model.Accuracy(lr) >= 0.96)
 }
 ```
+
