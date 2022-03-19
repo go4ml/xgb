@@ -1,7 +1,7 @@
-[![CircleCI](https://circleci.com/gh/go-ml-dev/xgb.svg?style=svg)](https://circleci.com/gh/go-ml-dev/xgb)
-[![Maintainability](https://api.codeclimate.com/v1/badges/24971185cab6e6a3fae2/maintainability)](https://codeclimate.com/github/go-ml-dev/xgb/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/24971185cab6e6a3fae2/test_coverage)](https://codeclimate.com/github/go-ml-dev/xgb/test_coverage)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-ml-dev/xgb)](https://goreportcard.com/report/github.com/go-ml-dev/xgb)
+[![CircleCI](https://circleci.com/gh/go4ml/xgb.svg?style=svg)](https://circleci.com/gh/go4ml/xgb)
+[![Maintainability](https://api.codeclimate.com/v1/badges/24971185cab6e6a3fae2/maintainability)](https://codeclimate.com/github/go4ml/xgb/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/24971185cab6e6a3fae2/test_coverage)](https://codeclimate.com/github/go4ml/xgb/test_coverage)
+[![Go Report Card](https://goreportcard.com/badge/github.com/go4ml/xgb)](https://goreportcard.com/report/github.com/go4ml/xgb)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
